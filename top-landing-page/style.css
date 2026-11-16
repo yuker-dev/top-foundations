@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'roboto', 'Arial';
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-inline: 48px;
+    color: #F9FAF8;
+
+}
+.navbar h2{
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    font-weight: 300;
+}
+
+.hero {
+    margin:48px;
+    padding-bottom: 75px;
+    gap: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero .text {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
+}
+
+.hero .left{
+    max-width: 500px;
+}
+
+.hero .right {
+    background: #6D747D;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    align-content: center;
+    color: #F9FAF8;
+}
+
+.signup{
+    background-color: #3882F6;
+    padding: 5px;
+    height: 30px;
+    width: 130px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-top: 10px;
+}
+
+.information {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.information h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.rectangle {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+
+}
+
+.info-container {
+    display: flex;
+    margin: 30px;
+    justify-content: space-evenly;
+
+}
+
+.info {
+    width: 150px;
+    height: 150px;
+}
+
+.info p {
+    padding-top: 10px;
+}
+
+.quote {
+    padding: 100px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 200px;
+}
+
+.cite {
+    font-size: 24px;
+}
+
+.container {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 48px;
+    border-radius: 10px;
+}
+
+.container button {
+    border: solid 2px #F9FAF8;
+    
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 75px;
+    text-align: center;
+}
